@@ -1,0 +1,137 @@
+.intro{
+    display: flex;
+    width: 1320px;
+    height: 380px;
+    margin-top: 95px;
+    margin-bottom: 95px;
+    gap: 50px;
+    
+}
+
+.left-section{
+    padding-top: 55px;
+    display: block;
+    margin-left: 250px;
+    flex: 1;
+}
+
+.right-section{
+    flex: 1;
+}
+
+.subscribe{
+    display: flex;
+    margin-top: 10px;
+}
+
+.podcast-btn{
+    text-decoration: none;
+    color: #5E0019;
+    border-width: 1px;
+    border-color: #5E0019;
+    border-radius: 10px;
+    border-style: solid;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    margin-right: 10px;
+}
+
+.podcast-btn:hover{
+    background-color: aliceblue;
+}
+
+.apple-podcast img{
+    width: 28px;
+    height: 28px;
+}
+
+.listen-notes img{
+    width: 28px;
+    height: 28px;
+}
+
+.acast img{
+    width: 28px;
+    height: 28px;
+}
+
+.subscribe-text{
+    color: #5E0019;
+    font-size: large;
+    font-weight: 600;
+    margin-top: 20px;
+}
+
+
+.right-section img{
+    width: 400px;
+    height: 380px;
+}
+
+.left-section h1{
+    font-size: 55px;
+    color: #5E0019;
+    margin-bottom: 10px;
+}
+
+.podcast-caption{
+    display: flex;
+    align-items: center;
+    margin-left: 250px;
+
+}
+
+.podcast-caption p{
+    color: #5E0019;
+    font-size: 24px;
+    padding-left: 10px;
+}
+
+.pl-subcaption{
+    color: #5E0019;
+    margin-left: 250px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    padding-left: 45px;
+}
+
+.podcast-item{
+    color: #5E0019;
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 10px;
+    margin: 10px 250px;
+    padding: 25px;
+    min-height: 100px;
+    margin-bottom: 25px;
+}
+
+.podcast-item h3, .podcast-description{
+    margin-bottom: 30px;
+}
+
+.view-detail-btn{
+    text-decoration: none;
+    color: #5E0019;
+    border-style: solid;
+    border-radius: 5px;
+    padding: 10px 20px;
+    border-width: 1px;
+    margin-right: 10px;
+}
+
+.view-detail-btn:hover{
+    background-color: #5E0019;
+    color: white;
+}
+
+.podcast-info{
+    display: flex;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+
